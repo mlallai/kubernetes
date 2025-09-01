@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: mlallai/kubernetes:build-2
+        image: mlallai/kubernetes:build-3
         ports:
         - containerPort: 80
         resources:

@@ -1,9 +1,12 @@
-version: '3.8'
+version: '3.9'
 
 services:
-  app:
+  backend:
     build:
       context: .
+      target: install-dependencies
+    command: npm start
+    restart: unless-stopped
     ports:
       - '80:80'
     environment:

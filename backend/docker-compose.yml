@@ -5,7 +5,7 @@ services:
     build:
       context: .
       target: install-dependencies
-    command: npm start
+    command: npm run dev
     restart: unless-stopped
     ports:
       - '80:80'

@@ -1,2 +1,5 @@
 civo-kubeconfig
 *.env
+
+dist
+node_modules
